@@ -1,0 +1,10 @@
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml"/>
+	<jmxConfigurator/>
+	
+	<logger name="com.leting" level="DEBUG"/>
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>
